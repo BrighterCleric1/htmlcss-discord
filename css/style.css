@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Rubik', sans-serif;
 }
 
 .clearfix::after{
@@ -31,13 +32,25 @@ button{
     border-radius: 20px;
     border-style: none;
     cursor: pointer;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
     text-align: center;
+    font-weight: bold;
+    margin-right: 20px;
 }
 
 .arrow{
     display: inline-block;
     margin-right: 10px;
+}
+
+.download{
+    background-color: white;
+    color: black;
+}
+
+.openbrowser{
+    background-color: black;
+    color: white;
 }
 
 header{
@@ -55,10 +68,11 @@ header{
 
 .container1{
     margin-bottom: 300px;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .container2{
+    margin-bottom: 300px;
     margin-top: 100px;
     position: relative;
 }
@@ -89,6 +103,10 @@ nav{
     text-align: right;
 }
 
+.login button{
+    background-color: white;
+}
+
 .jumbocenter{
     color: white;
     text-align: center;
@@ -109,6 +127,7 @@ h2{
 
 #intro{
     margin-bottom: 20px;
+    font-size: 15px;
 }
 
 .discord-img{
@@ -120,19 +139,11 @@ h2{
     margin-top: 40px;
 }
 
-.centered{
-    margin-top: 300px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.description h3{
+    font-size: 50px;
 }
 
-.description-ending{
-    width: 100%;
-    text-align: center;
-}
-
-.ending{
-    text-align: center;
+.description p{
+    font-size: 20px;
+    margin-top: 20px;
 }
