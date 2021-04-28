@@ -154,7 +154,7 @@ h2{
 .container2 .description{
     width: 100%;
 }
-.container2 h3:last-of-type{ 
+.container2 h4{ 
     font-size: 25px;
     font-weight: bold;
     background-image: url(../img/stars.svg);
@@ -194,9 +194,29 @@ footer{
     margin-top: 5px;
 }
 
+.footer-end button{
+    color: white;
+    background-color: #7289DA;
+}
+
 .footer-end{
     margin-top: 20px;
     border-top: 1px solid #7289DA;
     padding-bottom: 50px;
     padding-top: 30px;
+}
+
+.icons :first-child{
+    color: #7289DA;
+    font-size: 30px;
+
+} 
+
+.flag{
+    color: white;
+    margin-top: 10px;
+}
+
+.flag img{
+    height: 20px;
 }
