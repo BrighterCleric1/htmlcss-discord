@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 nav::after{
     content: "";
     display: table;
@@ -48,7 +54,13 @@ header{
 }
 
 .container1{
-   margin-top: 40px;
+    margin-bottom: 300px;
+    margin-top: 40px;
+}
+
+.container2{
+    margin-top: 100px;
+    position: relative;
 }
 
 nav{
@@ -90,7 +102,7 @@ nav{
     display: inline-block;
 }
 
-h3{
+h2{
     font-size: 40px;
     margin-bottom: 30px;
 }
@@ -106,4 +118,21 @@ h3{
 .description{
     width: 40%;
     margin-top: 40px;
+}
+
+.centered{
+    margin-top: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.description-ending{
+    width: 100%;
+    text-align: center;
+}
+
+.ending{
+    text-align: center;
 }
