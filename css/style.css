@@ -18,7 +18,24 @@ nav::after{
     float: left;
 }
 
+button{
+    height: 40px;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+}
+
+.arrow{
+    display: inline-block;
+    margin-right: 10px;
+}
+
 header{
+    position: relative;
     height: 600px;
     background-image: url(../img/jumbo.png);
     background-position: center;
@@ -40,6 +57,7 @@ nav{
 }
 
 .navbar{
+    color: white;
     line-height: 34px;
     text-align: center;
     list-style: none;
@@ -53,4 +71,26 @@ nav{
 
 .login{
     text-align: right;
+}
+
+.jumbocenter{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buttons{
+    display: inline-block;
+}
+
+h3{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#intro{
+    margin-bottom: 20px;
 }
