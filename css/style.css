@@ -34,7 +34,6 @@ button{
     cursor: pointer;
     padding: 10px 20px 10px 20px;
     text-align: center;
-    font-weight: bold;
     margin-right: 20px;
 }
 
@@ -146,4 +145,58 @@ h2{
 .description p{
     font-size: 20px;
     margin-top: 20px;
+}
+
+.container2{
+    text-align: center;
+}
+
+.container2 .description{
+    width: 100%;
+}
+.container2 h3:last-of-type{ 
+    font-size: 25px;
+    font-weight: bold;
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    background-position: center;
+}
+.container2 .download{
+    color: white;
+    background-color: #7289DA;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: #23272A;
+}
+
+.container3{
+    padding-top: 100px;
+}
+
+.container3 div{
+    float: left;
+}
+
+.container3 ul{
+    color: white;
+    list-style: none;
+    margin-left: 100px;
+    float: left;
+}
+
+.container3 li:first-of-type{
+    color: #7289DA;
+}
+
+.container3 li{
+    margin-top: 5px;
+}
+
+.footer-end{
+    margin-top: 20px;
+    border-top: 1px solid #7289DA;
+    padding-bottom: 50px;
+    padding-top: 30px;
 }
