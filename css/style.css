@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fr{
+    float: right;
+}
+
+.fl{
+    float: left;
+}
+
+header{
+    height: 600px;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav{
+    padding-top: 20px;
+    height: 34px;
+}
+
+.logo, .login{
+    width: 25%;
+}
+
+.navbar{
+    line-height: 34px;
+    text-align: center;
+    list-style: none;
+    width: 50%;
+}
+
+.navbar li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.login{
+    text-align: right;
+}
