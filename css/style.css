@@ -158,8 +158,7 @@ h2{
     font-size: 25px;
     font-weight: bold;
     background-image: url(../img/stars.svg);
-    background-size: cover;
-    background-position: center;
+    background-position: center bottom;
 }
 .container2 .download{
     color: white;
